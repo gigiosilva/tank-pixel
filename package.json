@@ -1,14 +1,17 @@
 {
   "name": "tank-pixel",
   "version": "0.0.0",
+  "engine": {
+    "node":"10.1.0"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
-    "build": "ng build",
+    "start": "ng serve",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod"
+    "postinstall": "npm run build"
   },
   "private": true,
   "dependencies": {
