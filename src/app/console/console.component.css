@@ -1,0 +1,39 @@
+#mainCanvas{
+	background-color: #0ff;
+	border:#666 1px solid;
+	width: 99%;
+	/*padding: 0;
+    margin: auto;
+    display: block;
+    width: 40%;*/
+}
+
+#tableScore_wrapper{
+	/*padding: 0;
+    margin: auto;
+    display: block;
+    width: 40%;*/
+}
+
+#tableScore{
+    border: 1px solid rgba(17, 17, 17, 0.29);
+}
+
+.container{
+	width: 60%;
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+.canvas{
+	width: 78%;
+    float: left;
+}
+.table{
+	width: 22%;
+    float: right;
+}
+
+.fg-toolbar{
+    display: none;
+}
